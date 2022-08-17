@@ -17,8 +17,8 @@
 	
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="HabitPlugin">
-                <param name="ios-package" value="HabitPlugin"/>
+            <feature name="LanguagePlugin">
+                <param name="ios-package" value="LanguagePlugin"/>
 		<param name="onload" value="true" />
             </feature>
         </config-file>
