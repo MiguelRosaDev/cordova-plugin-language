@@ -11,18 +11,16 @@
         <engine name="cordova-ios" version=">=5.1.1" />
     </engines>
 	
+    <preference name="LANGUAGE" default="Portuguese"/>
+	
     <js-module name="LanguagePlugin" src="www/language.js">
     	<clobbers target="LanguagePlugin" />
     </js-module>
 	
     <platform name="ios">
-        <config-file target="config.xml" parent="/*">
-            <feature name="LanguagePlugin">
-                <param name="ios-package" value="LanguagePlugin"/>
-		<param name="onload" value="true" />
-            </feature>
-        </config-file>
-
+	    <config-file file="*-Info.plist" mode="merge" target="CFBundleDevelopmentRegion">
+		 <string>$LANGUAGE</string>
+	    </config-file>
     </platform>
 </plugin>
 
