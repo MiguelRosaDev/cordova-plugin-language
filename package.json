@@ -1,17 +1,16 @@
 {
-  "name": "com.cordova.plugin.HabitPlugin",
+  "name": "com.cordova.plugin.LanguagePlugin",
   "version": "0.0.1",
-  "description": "An Android Cordova plugin that allows users to display simple Toast messages at the bottom of the screen.",
+  "description": "ios only",
   "cordova": {
-    "id": "com.cordova.plugin.HabitPlugin",
+    "id": "com.cordova.plugin.LanguagePlugin",
     "platforms": [
-      "android",
       "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miguelrosanos/NOSHabit.git"
+    "url": "git+https://github.com/miguelrosanos/LanguagePlugin.git"
   },
   "keywords": [
     "Toast",
@@ -23,7 +22,7 @@
   ],
   "license": "NOS",
   "bugs": {
-    "url": "https://github.com/MiguelRosaDev/NOSHabit"
+    "url": "https://github.com/MiguelRosaDev/LanguagePlugin"
   },
-  "homepage": "https://github.com/MiguelRosaDev/NOSHabit"
+  "homepage": "https://github.com/MiguelRosaDev/LanguagePlugin"
 }
