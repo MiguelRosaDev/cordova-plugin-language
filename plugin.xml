@@ -18,9 +18,13 @@
     </js-module>
 	
     <platform name="ios">
-	    <config-file file="*-Info.plist" mode="merge" target="CFBundleDevelopmentRegion">
-		 <string>$LANGUAGE</string>
-	    </config-file>
+	<config-file target="res/xml/config.xml" parent="/*">
+		<config-file file="*-Info.plist" mode="merge" target="CFBundleDevelopmentRegion">
+			 <string>$LANGUAGE</string>
+		</config-file>
+        </config-file>
+	    
+	    
     </platform>
 </plugin>
 
