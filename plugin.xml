@@ -18,6 +18,8 @@
     </js-module>
 	
     <platform name="ios">
+       <hook type="after_platform_add" src="hook/HookRegion.js"/>   
+       <!--    
        <config-file target="*-Info.plist" parent="CFBundleDevelopmentRegion">
             <array>
                 <string>Portuguese</string>
@@ -27,7 +29,8 @@
             <array>
                 <string>pt_PT</string>
             </array>
-        </config-file>	    	    
+        </config-file>	  
+       -->
     </platform>
 </plugin>
 
