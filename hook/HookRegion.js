@@ -20,7 +20,7 @@ module.exports = context => {
         return reject(err);
       }
       let infoPlist = plist.parse(data);
-      infoPlist.CFBundleDevelopmentRegion = 'pt';
+      infoPlist.CFBundleDevelopmentRegion = 'Portuguese';
       infoPlist.CFBundleLocalizations = 'pt_PT';
       fs.writeFile(plistPath, plist.build(infoPlist), err => {
         if (err) {
